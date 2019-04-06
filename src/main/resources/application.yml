@@ -1,6 +1,9 @@
 spring:
   application:
     name: mybatis
+  h2:
+    console:
+      enabled: true
   datasource:
     url: jdbc:mysql://localhost:3306/mybatis?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: root

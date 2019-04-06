@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
+@RequestMapping("/v1/class")
 public class ClassApi {
     @Autowired
     private ClassService classService;
